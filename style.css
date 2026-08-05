@@ -19,7 +19,7 @@ html{
 body{
   font-family:'M PLUS Rounded 1c',sans-serif;
   color:#555;
-  background-image:url("cat.background.JPG");
+  background-image:url("images/cat.background.JPG");
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
