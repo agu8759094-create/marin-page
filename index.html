@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>まりん公式サイト</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 丸ゴシック風フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===============================
+         ロード画面
+    ================================ -->
+  <div id="loader">
+        <div class="loader-box">
+            <img src="walk.GIF" alt="Loading">
+
+            <h2>Loading...</h2>
+
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+
+            <p>まりんが準備しています♪</p>
+        </div>
+    </div> 
+
+    <!-- ===============================
+         メイン
+    ================================ -->
+    <div id="main-content" style="display:none;">
+
+        <!-- 背景装飾 -->
+        <div class="background-overlay"></div>
+
+        <!-- ===============================
+             ヘッダー
+        ================================ -->
+        <header>
+
+            <div class="logo">
+                <img src="aikon.PNG" alt="まりん">
+                <h1>まりん</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#gallery">ギャラリー</a></li>
+                    <li><a href="#about">まりんについて</a></li>
+                    <li><a href="#anime">アニメ</a></li>
+                    <li><a href="#project">その他プロジェクト</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- ===============================
+             ヒーロー
+        ================================ -->
+        <section class="hero" id="home">
+
+            <div class="hero-card">
+                <img src="aikon.PNG" alt="まりん">
+
+                <h2>ようこそ！</h2>
+
+                <p>
+                    好奇心いっぱいのベンガル猫「まりん」と一緒に、
+                    絵本やアニメを通して"なんで？"を見つけよう！
+                </p>
+
+                <a href="#about" class="button">
+                    まりんについて
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- ===============================
+             NEWS
+        ================================ -->
+        <section class="news">
+
+            <h2>NEWS</h2>
+
+            <div class="news-box">
+
+                <article>
+                    <span class="date">
+                        2026/08/05
+                    </span>
+
+                    <p>
+                        サイトがオープンしました
+                    </p>
+                </article>
+
+                <article>
+                    <span class="date">
+                        2026/08/05
+                    </span>
+
+                    <p>
+                        次回更新のあにめ
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ===============================
+             ギャラリー
+        ================================ -->
+        <section class="gallery" id="gallery">
+
+            <h2>ギャラリー</h2>
+
+            <p class="section-text">
+                イラストや作品を掲載予定です♪
+            </p>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item">
+                    <img src="town.JPG" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="aikon.PNG" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="cherry.JPG" alt="">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="color.JPG" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===============================
+             まりんについて
+        ================================ -->
+        <section class="about" id="about">
+
+            <h2>まりんについて</h2>
+
+            <div class="about-box">
+
+                <img src="aikon.PNG" alt="まりん">
+
+                <div class="about-text">
+
+                    <h3>まりん</h3>
+
+                    <p>
+                        好奇心旺盛なベンガルの女の子。
+                        「なんで？」「どうして？」の気持ちを大切にしながら
+                        社会を学んでいく。
+                    </p>
+
+                    <h3>作者について</h3>
+
+                    <p>
+                        まりんはものづくりが大好きな大学生4人が集まって、
+                        子供の未来を絵本を通して考えていく
+                        プロジェクトから生まれたキャラクターです。
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===============================
+             あにめ
+        ================================ -->
+        <section class="anime" id="anime">
+
+            <h2>アニメ</h2>
+
+            <div class="coming">
+
+                <h3>Coming Soon...</h3>
+
+                <p>
+                    アニメを制作中です！
+                    公開までお楽しみに♪
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ===============================
+             その他プロジェクト
+        ================================ -->
+        <section class="project" id="project">
+
+            <h2>その他プロジェクト</h2>
+
+            <div class="project-box">
+
+                <div class="card">
+                    <h3>絵本制作</h3>
+                    <p>
+                        子どもの未来を考える絵本プロジェクト
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>教育活動</h3>
+                    <p>
+                        学びを楽しくするコンテンツを制作しています。
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>イベント</h3>
+                    <p>
+                        今後さまざまなイベントを予定しています♪
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===============================
+             フッター
+        ================================ -->
+        <footer>
+            <p>© 2026 まりん Project</p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
