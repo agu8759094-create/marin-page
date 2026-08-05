@@ -676,60 +676,61 @@ footer{
 
 @media(max-width:900px){
 
-header{
-
-  flex-direction:column;
-
-  gap:20px;
+  header{
+      flex-direction:row;
+      justify-content:space-between;
+  }
+  
+  nav{
+  
+      position:absolute;
+  
+      top:90px;
+  
+      left:50%;
+  
+      transform:translateX(-50%) scaleY(0);
+  
+      transform-origin:top;
+  
+      width:90%;
+  
+      background:white;
+  
+      border-radius:25px;
+  
+      box-shadow:0 10px 30px rgba(0,0,0,.12);
+  
+      transition:.35s;
+  
+      opacity:0;
+  
+      pointer-events:none;
+  }
+  
+  nav.active{
+  
+      transform:translateX(-50%) scaleY(1);
+  
+      opacity:1;
+  
+      pointer-events:auto;
+  }
+  
+  nav ul{
+  
+      flex-direction:column;
+  
+      padding:20px;
+  }
+  
+  .logo{
+  
+      cursor:pointer;
+  }
+  
 }
 
-nav ul{
-
-  flex-wrap:wrap;
-
-  justify-content:center;
-}
-
-.hero-card{
-
-  padding:35px;
-}
-
-.hero-card h2{
-
-  font-size:40px;
-}
-
-.hero-card img{
-
-  width:170px;
-}
-
-.about-box{
-
-  flex-direction:column;
-
-  text-align:center;
-}
-
-.about-box img{
-
-  width:180px;
-}
-
-.news-box article{
-
-  flex-direction:column;
-
-  gap:10px;
-}
-
-.date{
-
-  min-width:0;
-}
-
-}
 
 
 @media(max-width:600px){
